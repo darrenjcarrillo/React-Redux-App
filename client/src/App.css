@@ -1,0 +1,48 @@
+body {
+  background: #313843;
+}
+.App {
+  text-align: center;
+  color: white;
+}
+
+.nav-bar {
+  background: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.logo a {
+  color: orange;
+  font-size: 2rem;
+}
+
+.links {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  transition: 0.3s;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: s;
+}
